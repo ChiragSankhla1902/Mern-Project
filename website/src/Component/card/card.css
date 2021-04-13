@@ -1,0 +1,32 @@
+.resize{
+    height: 180px;
+    width: 288px;
+    transition:0.2s;
+}
+.resize:hover{
+    height: 190px;
+    width: 295px;
+    
+}
+.effect{
+    box-shadow: 5px 10px 18px #888888;
+    overflow: hidden;
+}
+.control{
+    overflow: hidden;
+}
+
+@media only screen and (max-width:660px) {
+    .effect{
+        margin:2px;
+        width: auto;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .effect{
+        width: 200px;
+    }
+}
+

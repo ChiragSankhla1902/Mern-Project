@@ -1,0 +1,58 @@
+.jumbopro1{
+    background-color: rgb(0, 162, 255);
+    width: 1050px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 5px 10px 18px #888888;
+    color: ghostwhite;
+}
+.bl{
+    background-color: black;
+    color: ghostwhite;
+}
+
+.res-ser{
+    display: none;
+}
+
+.bl:hover{
+    background-color: ghostwhite;
+    color: black;
+    border-color: #888888;
+}
+
+@media only screen and (max-width:1000px){
+    .jumbopro{
+        width: 744px;
+    }
+    .jumbopro1{
+        display: none;
+    }
+    .res-ser{
+        display: block;
+        width: 744px;
+    }
+    .img-res{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width:620px){
+    .img-res{
+        width: 400px;
+    }
+    .jumbopro{
+        width: auto;
+    }
+    .res-ser{
+        display: block;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .img-res{
+        width: 300px;
+        height: auto;
+    }
+}

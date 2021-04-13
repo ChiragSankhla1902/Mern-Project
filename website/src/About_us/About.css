@@ -1,0 +1,36 @@
+.head{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.pix{
+    margin-right: 100%;
+}
+.pix1{
+    margin-left: 80%;
+}
+
+.pix2{
+    margin-left: 85%;
+}
+.round{
+    border-radius: 15%;
+}
+
+@media only screen and(max-width:660px){
+    .row1{
+        width: auto;
+    }
+}
+
+@media only screen and (max-width :1200px){
+    .pix1{
+        margin-left:0%;
+        margin-right: 100%;
+    }
+    .pix2{
+        margin-left:0%;
+        margin-right: 100%;
+    }
+}
